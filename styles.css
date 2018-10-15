@@ -334,21 +334,6 @@ a img{
     top: 6px;
   }
 
-.customized-section {
-  text-align: center;
-}
-
-.customized-section-text {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 80px 16px 0 16px;
-}
-
-  .customized-section-text p {
-    padding-top: 16px;
-  }
-
 .more-section {
   padding: 80px 0;
   max-width: 1044px;
@@ -511,9 +496,19 @@ a img{
     display: none;
   }
 }
-.blockquote {
-  font-family: Arial, Helvetica, sans-serif;
-  font: Helvetica;
+.blockquote-section {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font: BlinkMacSystemFont;
+  font-size: 25px;
+  font-weight: 420;
   color:#999999;
   width:800px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 16px 0 16px;
+  text-align: center;
+  height:auto;
+  padding-top: 16px;
+  padding-bottom:16px
 }
