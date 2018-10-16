@@ -176,12 +176,14 @@ a img{
       bottom: 16px;
     }
 
-.be-together-section {
+.title-section {
   position: relative;
-  height: 375px;
+  height: auto;
   width: auto;
   background-color: #1e2330;
   background-size: cover;
+  padding-top:15px;
+  padding-bottom:65px
 }
 
 .logo-font {
