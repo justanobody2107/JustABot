@@ -436,7 +436,6 @@ a img{
   width:50%;
   float:left;
   margin-left:25px;
-  -moz-box-sizing: border-box
 }
 #multicolumn-column2{
   vertical-align: top;
@@ -447,7 +446,6 @@ a img{
   width:50%;
   float:right;
   margin-right:25px;
-  -moz-box-sizing: border-box
 }
 .spacer{
   height:35px;
