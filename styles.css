@@ -450,3 +450,7 @@ a img{
   margin-right:25px
   -moz-box-sizing: border-box
 }
+.spacer{
+  height:25px
+  background-color:#ffffff
+}
