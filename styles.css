@@ -209,7 +209,7 @@ a img{
 }
 
   .link:hover {
-    color: #0044ff !important;
+    color: #0077ff !important;
   }
 
   .link .material-icons {
@@ -246,6 +246,7 @@ a img{
   }
 
 .card-container {
+
 }
 
   .card-container .mdl-card__media {
@@ -450,4 +451,7 @@ a img{
 .spacer{
   height:35px;
   background-color:#ffffff
+}
+.button-color{
+  background-color:#cccccc
 }
