@@ -422,6 +422,7 @@ a img{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 425;
   font-size: 20px;
+  padding-bottom: 15px
   color:#999999
 }
 .multiparagraph-section{
@@ -454,4 +455,11 @@ a img{
 }
 .button-color{
   background-color:#bbbbbb
+}
+.commands{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 20px;
+  color:#000000
 }
