@@ -33,6 +33,14 @@ a img{
   color: #fff;
 }
 
+@font-face {
+  font-family: 'potralight';
+  src: url('fonts/potra-webfont.woff2') format('woff2'),
+       url('fonts/potra-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .search-box .mdl-textfield__input {
   color: rgba(0, 0, 0, 0.87);
 }
@@ -187,7 +195,7 @@ a img{
 }
 
 .logo-font {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'potralight';
   line-height: 1;
   color: #ffffff;
   font-weight: bold;
