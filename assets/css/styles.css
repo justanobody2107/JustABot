@@ -33,10 +33,22 @@ a img{
   color: #fff;
 }
 
+::-webkit-scrollbar { 
+  display: none; 
+}
+
 @font-face {
   font-family: 'potralight';
-  src: url('fonts/potra-webfont.woff2') format('woff2'),
-       url('fonts/potra-webfont.woff') format('woff');
+  src: url('fonts/potra/potra-webfont.woff2') format('woff2'),
+       url('fonts/potra/potra-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'space_ageregular';
+  src: url('fonts/spaceage/space_age-webfont.woff2') format('woff2'),
+       url('fonts/spaceage/space_age-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -298,7 +310,7 @@ a img{
 }
 
   .footer a:hover {
-    color: #999999;
+    color: #000088;
   }
 
   .footer .mdl-mega-footer--top-section::after {
@@ -396,12 +408,16 @@ a img{
     display: none;
   }
 }
+.embed-text {
+  font-family: 'space_ageregular';
+  font-size:25px;
+}
 .blockquote-section {
   position: relative;
   display: block;
   padding: 1.5em 2.5em;
   background: rgb(180, 180, 180);
-  font-family: 'potralight';
+  font-family: 'space_ageregular';
   font-size: 16px;
   font-weight: 300;
   line-height: 1.75;
@@ -412,9 +428,9 @@ a img{
   background-color:#ffffff
 }
 .name{
-  font-family: 'potralight';
-  font-weight: 450;
-  font-size: 25px
+  font-family: 'space_ageregular';
+  font-weight: bold;
+  font-size: 20px
 }
 .padding{
   margin: 50px
@@ -427,14 +443,20 @@ a img{
   color:#000000
 }
 .text-style{
-  font-family: 'potralight';
+  font-family: 'space_ageregular';
   font-weight: 425;
-  font-size: 20px;
+  font-size: 25px;
   padding-bottom: 15px;
-  color:#999999
+  columns: #000088;
+}
+.sub-text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: red;
 }
 .multiparagraph-section{
-  font-family: 'potralight';
+  font-family: 'space_ageregular';
   height:145px
 }
 #multicolumn-column1{
@@ -465,7 +487,7 @@ a img{
   background-color:#bbbbbb
 }
 .commands{
-  font-family: 'potralight';
+  font-family: 'space_ageregular';
   font-weight: bold;
   font-size: 30px;
   padding-bottom: 20px;
