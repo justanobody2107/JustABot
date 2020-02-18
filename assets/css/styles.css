@@ -37,22 +37,6 @@ a img{
   display: none; 
 }
 
-@font-face {
-  font-family: 'potralight';
-  src: url('fonts/potra/potra-webfont.woff2') format('woff2'),
-       url('fonts/potra/potra-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'space_ageregular';
-  src: url('fonts/spaceage/space_age-webfont.woff2') format('woff2'),
-       url('fonts/spaceage/space_age-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 .search-box .mdl-textfield__input {
   color: rgba(0, 0, 0, 0.87);
 }
@@ -207,7 +191,7 @@ a img{
 }
 
 .logo-font {
-  font-family: 'potralight';
+  font-family: 'Roboto', sans-serif;
   line-height: 1;
   color: #ffffff;
   font-weight: bold;
@@ -409,7 +393,7 @@ a img{
   }
 }
 .embed-text {
-  font-family: 'space_ageregular';
+  font-family: 'Titillium Web', sans-serif;
   font-size:25px;
 }
 .blockquote-section {
@@ -417,7 +401,7 @@ a img{
   display: block;
   padding: 1.5em 2.5em;
   background: rgb(180, 180, 180);
-  font-family: 'space_ageregular';
+  font-family: 'Titillium Web', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.75;
@@ -428,7 +412,7 @@ a img{
   background-color:#ffffff
 }
 .name{
-  font-family: 'space_ageregular';
+  font-family: 'Titillium Web', sans-serif;
   font-weight: bold;
   font-size: 20px
 }
@@ -436,14 +420,14 @@ a img{
   margin: 50px
 }
 .title-style{
-  font-family: 'potralight';
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 40px;
   padding-bottom: 20px;
   color:#000000
 }
 .text-style{
-  font-family: 'space_ageregular';
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 425;
   font-size: 25px;
   padding-bottom: 15px;
@@ -456,7 +440,7 @@ a img{
   color: red;
 }
 .multiparagraph-section{
-  font-family: 'space_ageregular';
+  font-family: 'Titillium Web', sans-serif;
   height:145px
 }
 #multicolumn-column1{
@@ -487,7 +471,7 @@ a img{
   background-color:#bbbbbb
 }
 .commands{
-  font-family: 'space_ageregular';
+  font-family: 'Titillium Web', sans-serif;
   font-weight: bold;
   font-size: 30px;
   padding-bottom: 20px;
