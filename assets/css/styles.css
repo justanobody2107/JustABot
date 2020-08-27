@@ -17,6 +17,21 @@
 body {
   margin: 0;
 }
+/* Font Faces*/
+
+@font-face {
+  font-family: 'Copperplate';
+  src: url('/assets/css/fonts/copperplate/opticopperplate-webfont.woff2') format('woff2'), url('/assets/css/fonts/copperplate/opticopperplate-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Copperplate Bold';
+  src: url('/assets/css/fonts/copperplate/opticopperplate-heavy-webfont.woff2') format('woff2'), url('/assets/css/fonts/copperplate/opticopperplate-heavy-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
 
 /* Disable ugly boxes around images in IE10 */
 a img{
@@ -191,7 +206,7 @@ a img{
 }
 
 .logo-font {
-  font-family: 'Roboto', sans-serif;
+  font-family: ''Copperplate Bold'', sans-serif;
   line-height: 1;
   color: #ffffff;
   font-weight: bold;
@@ -250,7 +265,7 @@ a img{
   }
 
 .card-container {
-
+  background: transparent;
 }
 
   .card-container .mdl-card__media {
@@ -393,7 +408,7 @@ a img{
   }
 }
 .embed-text {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Copperplate', sans-serif;
   font-size:25px;
 }
 .blockquote-section {
@@ -401,7 +416,7 @@ a img{
   display: block;
   padding: 1.5em 2.5em;
   background: rgb(180, 180, 180);
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Copperplate', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.75;
@@ -412,7 +427,7 @@ a img{
   background-color:#ffffff
 }
 .name{
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Copperplate Bold', sans-serif;
   font-weight: bold;
   font-size: 20px
 }
@@ -427,7 +442,7 @@ a img{
   color:#000000
 }
 .text-style{
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Copperplate', sans-serif;
   font-weight: 425;
   font-size: 25px;
   padding-bottom: 15px;
@@ -440,7 +455,7 @@ a img{
   color: red;
 }
 .multiparagraph-section{
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Copperplate', sans-serif;
   height:145px
 }
 #multicolumn-column1{
@@ -471,7 +486,7 @@ a img{
   background-color:#bbbbbb
 }
 .commands{
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Copperplate Bold', sans-serif;
   font-weight: bold;
   font-size: 30px;
   padding-bottom: 20px;
