@@ -375,7 +375,7 @@ a img{
   /* WebViews in iOS 9 break the "~" operator, and WebViews in OS X 10.10 break
      consecutive "+" operators in some cases. Therefore, we need to use both
      here to cover all the bases. */
-  .android.search-box.is-focused ~ .mobile-title,
+  .search-box.is-focused ~ .mobile-title,
   .search-box.is-focused + .navigation-container + .mobile-title {
     opacity: 0;
   }
