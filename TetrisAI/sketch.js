@@ -29,7 +29,7 @@ let populationSize = 160;
 
 
 function preload() {
-    font = loadFont("tetris_font/Square.ttf");
+    font = loadFont("libraries/tetris_font/Square.ttf");
 }
 
 function setup() {
